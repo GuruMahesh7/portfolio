@@ -24,7 +24,7 @@ const Toast = ({ show, type = "success", message, onClose }) => {
         <div className="flex items-start justify-between space-x-4">
           <div className="flex-1 text-sm">{message}</div>
           <button onClick={onClose} className="ml-2 font-bold">
-            ✕
+              ✕
           </button>
         </div>
       </div>
@@ -41,8 +41,7 @@ const GetInTouch = () => {
     message: "",
   });
 
-  const YOUR_PHONE_NUMBER = "6300603869"; // <-- put your phone in E.164 format here (example)
-
+  const YOUR_PHONE_NUMBER = "+91 6300603869"; 
   const showToast = (type, message) => {
     setToast({ show: true, type, message });
     setTimeout(() => setToast((t) => ({ ...t, show: false })), 4500);
@@ -60,7 +59,7 @@ const GetInTouch = () => {
     setLoading(true);
     try {
       const res = await fetch(
-        " https://portfolio-backend-h3ql.onrender.com/api/contact",
+        "https://narendra-port.onrender.com/api/contact",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -152,7 +151,6 @@ const GetInTouch = () => {
                 freelance projects. Let's build something amazing together!
               </p>
 
-              {/* Simple tel: link — clicking on phone will call your number */}
               <a
                 href={`tel:${YOUR_PHONE_NUMBER}`}
                 className="w-full inline-flex items-center justify-center px-4 py-3 bg-blue-600 rounded-md hover:bg-blue-700 transition-colors duration-300"

@@ -57,12 +57,12 @@ const Navbar = () => {
       </ul>
 
       <a
-        href="https://drive.google.com/file/d/1q6IhGTclCeQ3rndUWf_bd5w5dEDlROaK/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1mOjUhJPos8LoXvoA8Nnrg2WGDNgZhQOv/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
-        className="hidden md:block"
+        className="hidden md:block cursor-pointer"
       >
-        <button className="bg-[#3b82f6] px-4 py-2 rounded-lg hover:bg-[#2563eb] transition font-medium">
+        <button className="bg-[#3b82f6] px-4 py-2 rounded-lg hover:bg-[#2563eb] transition font-medium cursor-pointer">
           View Resume
         </button>
       </a>
