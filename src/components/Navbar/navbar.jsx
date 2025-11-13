@@ -57,7 +57,7 @@ const Navbar = () => {
       </ul>
 
       <a
-        href="https://drive.google.com/file/d/1mOjUhJPos8LoXvoA8Nnrg2WGDNgZhQOv/view?usp=sharing"
+        href="https://drive.google.com/file/d/1y1ztluhXG_viHZEZDhSMmLoHcBK5pKTE/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="hidden md:block cursor-pointer"
