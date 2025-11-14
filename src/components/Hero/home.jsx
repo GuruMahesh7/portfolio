@@ -16,15 +16,15 @@ const Hero = () => {
       <div className="flex justify-center mb-6 md:mb-8">
         <div className="relative">
           <img
-            src="https://res.cloudinary.com/dswwx0axn/image/upload/v1749710082/pp_zcengv.jpg"
-            alt="Narendra - Full Stack Developer"
+            src="https://res-console.cloudinary.com/dqa2zkc65/thumbnails/v1/image/upload/v1763127226/U2NyZWVuc2hvdF8yMDI1LTAzLTExXzE0NDQwOF9mbmQ0NnQ=/drilldown"
+            alt="Guru Mahesh - Full Stack Developer"
             className="w-28 h-28 md:w-40 md:h-40 rounded-full object-cover border-4 border-solid border-[#19537d]"
           />
           <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent"></div>
         </div>
       </div>
-      <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-semibold text-white">
-        Narendra.
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-white">
+        Guru Mahesh.
       </h1>
       <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-semibold text-[#3b82f6] mt-2">
         A Full Stack Developer.

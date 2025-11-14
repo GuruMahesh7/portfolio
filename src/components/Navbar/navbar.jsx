@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center px-8 py-4 bg-[#0a0f1c]/90 fixed top-0 w-full z-50 shadow-md border-b border-gray-700">
-      <h1 className="text-2xl font-bold text-[#3b82f6]">Narendra</h1>
+      <h1 className="text-2xl font-bold text-[#3b82f6]">Guru</h1>
 
       <ul className="hidden md:flex space-x-8 text-gray-300 font-medium list-none">
         <li
@@ -57,7 +57,7 @@ const Navbar = () => {
       </ul>
 
       <a
-        href="https://drive.google.com/file/d/1y1ztluhXG_viHZEZDhSMmLoHcBK5pKTE/view?usp=sharing"
+        href="https://drive.google.com/file/d/1pPQjxR5JjqHuekA22MKETN1kTi-VKu0q/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
         className="hidden md:block cursor-pointer"
@@ -111,7 +111,7 @@ const Navbar = () => {
             Contact
           </li>
           <a
-            href="https://drive.google.com/file/d/1q6IhGTclCeQ3rndUWf_bd5w5dEDlROaK/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1pPQjxR5JjqHuekA22MKETN1kTi-VKu0q/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

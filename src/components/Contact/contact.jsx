@@ -109,12 +109,12 @@ const GetInTouch = () => {
                   <div>
                     <p className="font-semibold text-white">GitHub</p>
                     <a
-                      href="https://github.com/narendranaragani"
+                      href="https://github.com/GuruMahesh7"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-400 hover:underline"
                     >
-                      github.com/narendra-naragani
+                      https://github.com/GuruMahesh7
                     </a>
                   </div>
                 </div>
@@ -123,12 +123,12 @@ const GetInTouch = () => {
                   <div>
                     <p className="font-semibold text-white">LinkedIn</p>
                     <a
-                      href="https://www.linkedin.com/in/narendra-naragani/"
+                      href="https://www.linkedin.com/in/guru-mahesh-busani/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-400 hover:underline"
                     >
-                      linkedin.com/in/narendra-naragani
+                      linkedin.com/in/guru-mahesh-busani/
                     </a>
                   </div>
                 </div>

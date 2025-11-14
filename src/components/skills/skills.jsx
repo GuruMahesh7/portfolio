@@ -69,16 +69,42 @@ const MySkills = () => {
             <FaDatabase className="text-4xl text-blue-400 mb-4" />
             <h3 className="text-2xl font-semibold mb-6">Databases</h3>
             <div className="w-full space-y-4">
-             
               <div className="flex justify-between items-center">
                 <span className="text-lg">MongoDB</span>
                 <div className="bg-gray-700 h-2 w-32 rounded-full">
                   <div className="bg-blue-400 h-full rounded-full w-[90%]"></div>
                 </div>
               </div>
-        
+
               <div className="flex justify-between items-center">
                 <span className="text-lg">SQL</span>
+                <div className="bg-gray-700 h-2 w-32 rounded-full">
+                  <div className="bg-blue-400 h-full rounded-full w-[75%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-[#181818] rounded-lg shadow-xl p-8 flex flex-col items-center text-center">
+            <FaDatabase className="text-4xl text-blue-400 mb-4" />
+            <h3 className="text-2xl font-semibold mb-6">Programming</h3>
+            <div className="w-full space-y-4">
+              <div className="flex justify-between items-center">
+                <span className="text-lg">Python</span>
+                <div className="bg-gray-700 h-2 w-32 rounded-full">
+                  <div className="bg-blue-400 h-full rounded-full w-[90%]"></div>
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-lg">C++</span>
+                <div className="bg-gray-700 h-2 w-32 rounded-full">
+                  <div className="bg-blue-400 h-full rounded-full w-[75%]"></div>
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center">
+                <span className="text-lg">Javascript</span>
                 <div className="bg-gray-700 h-2 w-32 rounded-full">
                   <div className="bg-blue-400 h-full rounded-full w-[75%]"></div>
                 </div>

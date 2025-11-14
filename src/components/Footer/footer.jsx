@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 mb-8">
           <div className="md:col-span-1">
             <h3 className="text-2xl font-semibold text-blue-400 mb-2">
-              Narendra
+              Guru Mahesh
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Full Stack Developer passionate about building scalable, modern
@@ -56,7 +56,7 @@ const Footer = () => {
             <h4 className="text-xl font-semibold mb-3">Let's Connect</h4>
             <div className="flex space-x-4 mb-4">
               <a
-                href="https://github.com/narendranaragani"
+                href="https://github.com/GuruMahesh7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white text-3xl hover:text-blue-400 transition-colors duration-200"
@@ -64,7 +64,7 @@ const Footer = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com/in/narendra-naragani"
+                href="https://www.linkedin.com/in/guru-mahesh-busani/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white text-3xl hover:text-blue-400 transition-colors duration-200"
@@ -80,12 +80,10 @@ const Footer = () => {
 
         <hr className="border-gray-700 mb-4" />
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 space-y-2 md:space-y-0">
-          <p>
-            © 2025 Narendra. Built with using React
-          </p>
+          <p>© 2025 Guru Mahesh. Built with using React</p>
           <p>
             Designed & Developed by{" "}
-            <span className="text-blue-400 font-semibold">Narendra</span>
+            <span className="text-blue-400 font-semibold">Guru Mahesh</span>
           </p>
         </div>
       </div>

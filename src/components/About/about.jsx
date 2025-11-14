@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="md:w-2/3">
           <p className="text-lg leading-relaxed mb-6">
             Hello, I'm{" "}
-            <span className="text-blue-400 font-semibold">Narendra</span>, a
+            <span className="text-blue-400 font-semibold">Guru Mahesh</span>, a
             motivated Full Stack Developer and a student at NIAT. My journey
             began with a curiosity for how technology works, which quickly
             evolved into a passion for building robust and elegant web
@@ -35,7 +35,7 @@ const AboutMe = () => {
 
         <div className="md:w-1/3 bg-[#181818] rounded-lg shadow-xl p-6 flex flex-col items-center">
           <div className="w-24 h-24 rounded-full bg-blue-500 flex items-center justify-center mb-4">
-            <span className="text-5xl font-bold text-white">N</span>
+            <span className="text-5xl font-bold text-white">G</span>
           </div>
           <h2 className="text-2xl font-semibold">Full Stack Developer</h2>
           <p className="text-gray-400 text-sm mb-6">Student at NIAT</p>

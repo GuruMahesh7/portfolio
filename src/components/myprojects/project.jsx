@@ -5,11 +5,11 @@ import { SiReact, SiNodedotjs, SiMongodb, SiExpress } from "react-icons/si";
 const projects = [
   {
     image:
-      "https://i.pinimg.com/736x/c8/e8/8a/c8e88aaa69c1fe3a12b816cc8052e993.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqopG4q33b-UpMv6SQKV0iJDd6U3oApM-heQ&s",
     category: "MERN Stack",
-    title: "Spotify Clone",
+    title: "Coupon Hub",
     description:
-      "A web application for streaming music and managing playlists with real-time playback functionality.",
+      "A smart and efficient coupon management system that lets admins create, track, validate, and analyze coupon performance with real-time insights.",
     technologies: [
       { icon: <SiReact className="text-blue-400" />, name: "React" },
       { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
@@ -17,20 +17,21 @@ const projects = [
       { icon: <SiExpress className="text-gray-400" />, name: "Express" },
     ],
     features: [
-      "User authentication",
-      "Playlist creation",
-      "Real-time music playback",
+      "Create, update, and deactivate coupons",
+      "Coupon usage tracking with analytics",
+      "User-based coupon assignment",
+      "Interactive dashboard with charts",
     ],
-    liveDemo: " https://spotify-clone-sigma-green.vercel.app/",
-    githubLink: "https://github.com/narendranaragani/spotify-clone",
+    liveDemo: "https://react-kft3.vercel.app/dashboard",
+    githubLink: "https://github.com/GuruMahesh7/CouponHub",
   },
   {
     image:
-      "https://www.shutterstock.com/image-photo/businessman-using-laptop-personal-information-600nw-2446054229.jpg",
+      "https://thumbs.dreamstime.com/b/mentoring-puzzle-mentor-concept-image-female-hand-jigsaw-different-words-related-to-topic-35277853.jpg",
     category: "Full Stack",
-    title: "Contact-Manager",
+    title: "Mentorify",
     description:
-      "A full-stack contact management system where users can securely create, update, search, and delete contacts. Built using MERN stack with authentication and clean UI.",
+      "A functional clone of the Mentorify platform designed to replicate its learning experience, mentorship workflow, and dashboard structure using modern full-stack technologies.",
     technologies: [
       { icon: <SiMongodb className="text-green-600" />, name: "MongoDB" },
       { icon: <SiExpress className="text-gray-400" />, name: "Express" },
@@ -39,33 +40,53 @@ const projects = [
     ],
     features: [
       "User Authentication (JWT)",
-      "Create, Read, Update, Delete Contacts",
-      "Edit Form with Pre-filled Fields",
-      "Search Functionality",
-      "Responsive UI with Tailwind CSS",
+      "Clean and responsive UI inspired by Mentorify",
+      "Student & mentor dashboard sections",
+      "Course/skills listing module",
     ],
-    liveDemo: "https://contact-manager-xi-lac.vercel.app/",
-    githubLink: "https://github.com/narendranaragani/contact-manager",
+    liveDemo: "https://edu-tech-pro-ruby.vercel.app/",
+    githubLink: "https://github.com/GuruMahesh7/Edu-Tech-Pro",
   },
   {
     image:
-      "https://i.pinimg.com/736x/2e/b0/33/2eb0336898648e83cdb8182c04e9b4e2.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/62/d4/9062d416-ea0e-fcd8-2fd0-8ce332a2968b/AppIcon-0-0-1x_U007emarketing-0-0-0-11-0-0-sRGB-85-220.png/512x512bb.jpg",
     category: "Frontend",
-    title: "Food-Express",
+    title: "Mini Games",
     description:
-      "A modern food delivery application with user authentication and order management.",
+      "A collection of simple, fast, and engaging mini-games built to sharpen problem-solving and provide entertainment through clean design and smooth interactions.",
     technologies: [
       { icon: <SiReact className="text-blue-400" />, name: "React" },
-      { icon: null, name: "Authentication" },
+      { icon: null, name: "JavaScript" },
     ],
     features: [
-      "User authentication",
-      "Food ordering",
-      "Restaurant listings",
-      "Order tracking",
+      "Multiple mini-games in one platform",
+      "Clean visuals and user-friendly controls",
+      "Beginner-friendly logic & interactive gameplay",
+      "Lightweight design with smooth animations",
     ],
-    liveDemo: "https://food-app-k553.vercel.app",
-    githubLink: "https://github.com/narendranaragani/food-app",
+    liveDemo: "https://mini-games-khaki.vercel.app/",
+    githubLink: "https://github.com/GuruMahesh7/MiniGames",
+  },
+  {
+    image:
+      "https://thumbs.dreamstime.com/b/futuristic-eye-technology-close-up-extreme-human-digital-enhancements-interface-elements-318316886.jpg",
+    category: "Frontend",
+    title: "Optisight",
+    description:
+      "A visually engaging, fully responsive website designed to educate users about the human eye, eye health tips, and vision-related topics.",
+    technologies: [
+      { icon: <SiReact className="text-blue-400" />, name: "HTML" },
+      { icon: <SiReact className="text-blue-400" />, name: "CSS" },
+      { icon: null, name: "JavaScript" },
+    ],
+    features: [
+      "Clean and modern UI",
+      "Informative blog-style content sections",
+      "Fully responsive design",
+      "Lightweight design with smooth animations",
+    ],
+    liveDemo: "https://optisight.niat.tech/",
+    githubLink: "https://github.com/GuruMahesh7/",
   },
 ];
 
