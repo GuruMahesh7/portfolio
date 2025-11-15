@@ -1,5 +1,5 @@
 import React from "react";
-
+import guru from '../../../public/guru.png'
 const Hero = () => {
 
   const scrollToSection = (sectionId) => {
@@ -16,7 +16,8 @@ const Hero = () => {
       <div className="flex justify-center mb-6 md:mb-8">
         <div className="relative">
           <img
-            src="https://res-console.cloudinary.com/dqa2zkc65/thumbnails/v1/image/upload/v1763127226/U2NyZWVuc2hvdF8yMDI1LTAzLTExXzE0NDQwOF9mbmQ0NnQ=/drilldown"
+            // src="https://res-console.cloudinary.com/dqa2zkc65/thumbnails/v1/image/upload/v1763127226/U2NyZWVuc2hvdF8yMDI1LTAzLTExXzE0NDQwOF9mbmQ0NnQ=/drilldown"
+            src={guru}
             alt="Guru Mahesh - Full Stack Developer"
             className="w-28 h-28 md:w-40 md:h-40 rounded-full object-cover border-4 border-solid border-[#19537d]"
           />
